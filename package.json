@@ -1,0 +1,30 @@
+{
+  "name": "rate-limit-func",
+  "version": "1.0.0",
+  "description": "wrap a function to support rate limit",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zhaoyao91/rate-limit-func.git"
+  },
+  "keywords": [
+    "rate-limit",
+    "func"
+  ],
+  "author": "zhaoyao91 <zhaoyao91@163.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zhaoyao91/rate-limit-func/issues"
+  },
+  "homepage": "https://github.com/zhaoyao91/rate-limit-func#readme",
+  "devDependencies": {
+    "jest": "^22.4.3"
+  },
+  "dependencies": {
+    "rate-limit-signal": "^3.0.0",
+    "sleep-promise": "^6.0.0"
+  }
+}
